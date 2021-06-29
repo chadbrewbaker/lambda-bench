@@ -7,6 +7,12 @@ Benchmark of various AWS Lambda and S3 SDKs.
 
 * Upload the result to S3.
 
+```bash
+aws s3 cp s3://bucket/file-in file-in
+wc file-in > file-out
+aws s3 cp file-out s3://bucket/file-out
+```
+
 
 ## Codes under test
 * Bash + AWS CLI (baseline)
