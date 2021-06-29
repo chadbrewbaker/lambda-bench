@@ -7,6 +7,13 @@ Benchmark of various AWS Lambda and S3 SDKs.
 
 * Upload the result to S3.
 
+
+## Codes under test
+* Bash + AWS CLI (baseline)
+* Bash + aws-c-s3 binary
+* Rust
+* C++
+
 [aws-lambda-rust](https://github.com/awslabs/aws-lambda-rust-runtime)
 
 [aws-lambda-cpp](https://github.com/awslabs/aws-lambda-cpp)
